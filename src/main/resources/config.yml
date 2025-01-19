@@ -1,0 +1,32 @@
+# Configuration file for platform positions in the Glass Game
+
+platforms:
+  - id: 1
+    type: safe
+    coordinates:
+      x: 100
+      y: 64
+      z: 200
+
+  - id: 2
+    type: fake
+    coordinates:
+      x: 101
+      y: 64
+      z: 200
+
+  - id: 3
+    type: safe
+    coordinates:
+      x: 102
+      y: 64
+      z: 200
+
+  - id: 4
+    type: fake
+    coordinates:
+      x: 103
+      y: 64
+      z: 200
+
+# Add more platforms as needed
