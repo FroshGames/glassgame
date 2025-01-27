@@ -9,5 +9,11 @@
         <module name="glassgame" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="21" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="glassgame" options="--enable-preview" />
+    </option>
   </component>
 </project>
