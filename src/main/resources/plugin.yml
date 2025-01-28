@@ -1,4 +1,11 @@
-name: glassgame
-version: 0.2
+name: Glassgame
+version: 1.0
 main: am.FroshGames.glassgame.Glassgame
+author: FroshGames
 api-version: 1.20
+description: Plugin de "Glassgame", rompe bloques falsos al pisarlos.
+
+commands:
+  glassgame:
+    description: Comando principal para gestionar el plugin (ejemplo).
+    usage: /glassgame [start|stop|help]

@@ -5,21 +5,20 @@ import org.bukkit.plugin.java.JavaPlugin;;
 
 public class Glassgame extends JavaPlugin {
 
-
     @Override
     public void onEnable() {
-        // Carga la config.yml (si no existe, la genera)
+        // Carga o crea el config.yml automáticamente (si no existe)
         saveDefaultConfig();
 
-        getLogger().info("GlassBridgePlugin se ha habilitado.");
-
-        // Registrar el listener
+        // Registra el listener que contiene la lógica del juego
         getServer().getPluginManager().registerEvents(new GlassListener(this), this);
+
+        getLogger().info("Glassgame se ha habilitado correctamente.");
     }
 
     @Override
     public void onDisable() {
-        getLogger().info("GlassBridgePlugin se ha deshabilitado.");
+        getLogger().info("Glassgame se ha deshabilitado.");
     }
 }
 
