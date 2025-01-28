@@ -7,5 +7,5 @@ description: Plugin de "Glassgame", rompe bloques falsos al pisarlos.
 
 commands:
   glassgame:
-    description: Comando principal para gestionar el plugin (ejemplo).
+    description: Comando principal para gestionar el plugin.
     usage: /glassgame [start|stop|help]
