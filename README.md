@@ -1,5 +1,5 @@
-# glassgame
- A simple pluguin sobre el glass game de los squidgames
+# glassgame Description
+Un pluguin simple del juego del puente de cristal de los *SquidGames*
 
 ## Guia de uso
 1. poner el pluguin en la carpeta de pluguins del Servidor
