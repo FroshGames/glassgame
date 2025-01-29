@@ -1,4 +1,4 @@
-package am.FroshGames.glassgame; // Debe coincidir con plugin.yml
+package am.FroshGames.glassgame;
 
 import am.FroshGames.glassgame.commands.GlassCommand;
 import am.FroshGames.glassgame.listener.GlassListener;
@@ -24,5 +24,4 @@ public class Glassgame extends JavaPlugin {
         getLogger().info("Glassgame se ha deshabilitado.");
     }
 }
-
 // Pluguin echo por Froshy //Amir chiquito estubo aqui

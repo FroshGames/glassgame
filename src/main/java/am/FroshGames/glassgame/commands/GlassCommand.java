@@ -15,7 +15,6 @@ public class GlassCommand implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        // Por ejemplo:
         if (args.length == 0) {
             sender.sendMessage("§eUsa /glassgame [start|stop|help]");
             return true;
