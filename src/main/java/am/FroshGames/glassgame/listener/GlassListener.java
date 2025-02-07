@@ -1,6 +1,7 @@
 package am.FroshGames.glassgame.listener;
 
 import am.FroshGames.glassgame.Glassgame;
+import org.bukkit.GameMode;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.configuration.file.FileConfiguration;
@@ -27,11 +28,17 @@ public class GlassListener implements Listener {
 
     @EventHandler
     public void onPlayerMove(PlayerMoveEvent event) {
+        Player player = event.getPlayer();
+
+        // Evita que los jugadores en modo espectador activen el evento
+        if (player.getGameMode() == GameMode.SPECTATOR) {
+            return;
+        }
+
         if (event.getFrom().getBlock().equals(event.getTo().getBlock())) {
             return;
         }
 
-        Player player = event.getPlayer();
         Block blockUnder = player.getLocation().getBlock().getRelative(0, -1, 0); // Ensure we check the block directly under the player
 
         if (config.getBoolean("restricted-area")) {
@@ -80,6 +87,7 @@ public class GlassListener implements Listener {
             }.runTaskLater(plugin, breakDelay);
         }
     }
+
 
     private void breakPlatform(Block startBlock, Material falseMaterial) {
         boolean searchIn2D = config.getBoolean("search-in-2d", true);
