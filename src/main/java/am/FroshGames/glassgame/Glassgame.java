@@ -17,6 +17,7 @@ public class Glassgame extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new GlassListener(this), this);
 
         getLogger().info("Glassgame se ha habilitado correctamente.");
+        getLogger().info("Plugin hecho por Froshy");
     }
 
     @Override
@@ -24,4 +25,3 @@ public class Glassgame extends JavaPlugin {
         getLogger().info("Glassgame se ha deshabilitado.");
     }
 }
-// Pluguin echo por Froshy //Amir chiquito estubo aqui
