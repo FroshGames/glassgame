@@ -37,4 +37,4 @@ Este plugin no requiere permisos especiales.
 
 ## 🤝 Créditos
 Desarrollado por **FroshGames| Amir Chiquito**.  
-Agradecimientos a **MiauluStudios** por su contribución y testeos.
+Agradecimientos a **MialuStudios** por su contribución y testeos.
