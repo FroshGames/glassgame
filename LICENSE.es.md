@@ -1,4 +1,4 @@
-Plugin Glassgame — Licencia Propietaria de Launcher_Mialu
+Plugin Glassgame — Licencia Propietaria de Froshycorp
 Versión 1.2 - 2026-03-31
 
 Copyright (c) 2026 MialuStudio y Froshycorp. Todos los derechos reservados.
