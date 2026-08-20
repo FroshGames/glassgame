@@ -1,4 +1,4 @@
-Glassgame Plugin — Launcher_Mialu Proprietary License
+Glassgame Plugin —  Proprietary License
 Version 1.2 - 2026-03-31
 
 Copyright (c) 2026 MialuStudio and Froshycorp. All rights reserved.
